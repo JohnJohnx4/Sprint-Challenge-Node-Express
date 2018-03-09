@@ -4,8 +4,25 @@
   "description": "A challenge to asses Node and Express knowledge",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
   },
-  "author": "Ivan Mora",
-  "license": "ISC"
+  "author": "John Correia",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "node-fetch": "^2.1.1",
+    "nodemon": "^1.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnJohnx4/Sprint-Challenge-Node-Express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JohnJohnx4/Sprint-Challenge-Node-Express/issues"
+  },
+  "homepage": "https://github.com/JohnJohnx4/Sprint-Challenge-Node-Express#readme"
 }
